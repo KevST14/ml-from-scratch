@@ -1,0 +1,20 @@
+[project]
+name = "ml-from-scratch"
+version = "0.1.0"
+description = "Learning machine learning from first principles, building each algorithm in NumPy before using a library."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib",
+    "numpy",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+    "jupyterlab",
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["lessons"]
