@@ -15,7 +15,8 @@ Learning machine learning from first principles. Each lesson starts from zero (w
 
 | # | Lesson | Question | Status |
 |---|---|---|---|
-| 01 | [Linear regression and gradient descent](lessons/01-linear-regression/) | How does a machine learn a straight line? | Next up |
+| 00 | [The maths toolkit](lessons/00-maths-toolkit/) | What maths does ML actually use, and what does it mean? | Next up |
+| 01 | [Linear regression and gradient descent](lessons/01-linear-regression/) | How does a machine learn a straight line? | Planned |
 | 02 | Logistic regression | How does a model predict yes or no? | Planned |
 | 03 | Overfitting and regularisation | Why does a perfect fit on training data fail on new data? | Planned |
 | 04 | Evaluating classifiers | Why can a 99% accurate model be useless? | Planned |
@@ -48,7 +49,7 @@ Needs [uv](https://docs.astral.sh/uv/).
 ```bash
 uv sync                                       # install everything
 uv run jupyter lab                            # open the lessons
-uv run pytest lessons/01-linear-regression    # check one lesson's implementation
+uv run pytest lessons/00-maths-toolkit        # check one lesson's implementation
 ```
 
 Applied finance experiments live in [fintech-lab](https://github.com/KevST14/fintech-lab).
