@@ -9,6 +9,19 @@ Learning machine learning from first principles. Each lesson starts from zero (w
 - **The lesson's README**: what I learned in my own words, what broke, and questions I still have.
 - New terms go in [GLOSSARY.md](GLOSSARY.md); each study session gets a line in [LOG.md](LOG.md).
 
+## How the lessons are written
+
+Maths isn't my strong point, so every lesson is written for someone meeting the idea for the first time:
+
+1. **The idea first**, in plain English, usually with a money example.
+2. **A picture**, and where possible a slider to play with.
+3. **Small numbers worked by hand**, so there's something concrete to check against.
+4. **Then the notation**, with every symbol read out in words. Optional derivations are labelled as optional.
+5. **Then the code**, which is often the clearest way to read a formula anyway.
+6. **🏭 In industry**: how the same thing looks in scikit-learn and PyTorch, where it's used for real, and the interview questions it answers.
+
+Lesson 00 covers the maths toolkit (averages, slopes, the chain rule, dot products, logs) from GCSE level up, and later lessons link back to it whenever they use it.
+
 ## Curriculum
 
 ### Part 1: Classic machine learning
